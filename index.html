@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Photo App</title>
+</head>
+<body>
+    <main>
+    <h1>Cat Photo App</h1>
+    <section>
+    <h2>Cat Photos</h2>
+    <p>See more <a href="">Cat photos </a>in our gallery.</p>
+    <img src="./assets/ferocious-attack-kitten-orange-tabby-wallpaper.jpg" alt="an orange cat" style="height: 200px;width: 300px;">
+    </section><section>
+    <h2>Cat Lists</h2>
+    <h2>Things cats love:</h2>
+    <ul>
+        <li>cat nip</li>
+        <li>laser pointers</li>
+        <li>lasagna</li>
+    </ul>
+    <figure>
+    <img src="./assets/lasagna.jpg" alt="pic of lasagna" style="height: 200px;width: 300px;">
+    <figcaption>Cats <i>love</i> lasagna.</figcaption></figure>
+    <h2>Top 3 things cats hate:</h2>
+    <ol>
+        <li>flea treatment</li>
+        <li>thunder</li>
+        <li>other cats</li>
+    </ol>
+    <figure>
+    <img src="./assets/GroupOfCats.jpg" alt="Group of cats" style="height: 200px;width: 300px;">
+    <figcaption>Cats <b>hate</b> other cats.</figcaption></figure>
+</section><section>
+    <h2>Cat Form</h2>
+    <form>
+     <fieldset>
+        <legend>Is your cat an indoor or outdoor cat?</legend>
+        <label for="Indoor_radio">
+            <input type="radio" id="Indoor_radio" name="indoor_outdoor" value="Indoor" checked> Indoor</label>
+          <label for="Outdoor_radio"> <input type="radio" id="Outdoor_radio" name="indoor_outdoor" value="Outdoor"> Outdoor
+        </label>
+     </fieldset>
+     <fieldset>
+        <legend>What's your cat's personality?</legend>
+        <label for="Loving">
+            <input type="checkbox" id="Loving" name="personality" value="Loving"> Loving
+        </label>
+        <label for="Lazy">
+            <input type="checkbox" id="Lazy" name="personality" value="Lazy"> Lazy
+        </label>
+        <label for="Energetic">
+            <input type="checkbox" id="Energetic" name="personality" value="Energetic"> Energetic
+        </label>
+     </fieldset>
+     <input type="text" name="URL" placeholder="cat photo URL">
+     <input type="submit" value="Submit"> 
+    </form></section>
+    <footer>
+        <p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
+    </footer>
+</main>
+</body>
+</html>
